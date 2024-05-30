@@ -1,0 +1,295 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  z-index: 2;
+}
+header .container {
+  width: 100%;
+  display: flex;
+}
+header .container nav {
+  width: 95%;
+  display: flex;
+}
+header .container nav .navhead img {
+  margin-right: 50px;
+  width: 20%;
+}
+
+#navbarNavDropdown {
+  justify-content: flex-end;
+  color: white;
+  list-style: none;
+  justify-content: space-between;
+}
+#navbarNavDropdown ul li a {
+  color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 15px;
+}
+#navbarNavDropdown ul .dropdown-menu li a {
+  color: white;
+  background-color: black;
+}
+#navbarNavDropdown .icons i {
+  color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#sectionOne {
+  width: 100%;
+  height: 700px;
+  background-image: url("../image/home-1-slider-image-2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  z-index: 1;
+}
+#sectionOne .containerSectionOne {
+  width: 100%;
+  flex-direction: column;
+  text-align: right;
+}
+#sectionOne .contImg {
+  width: 100%;
+  color: white;
+  text-align: right;
+  padding-right: 30px;
+  color: whitesmoke;
+}
+#sectionOne .scripts {
+  text-align: right;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 15px;
+}
+#sectionOne h1 {
+  font-family: "Marcellus", serif;
+  font-weight: 200;
+  font-size: 60px;
+  margin-top: 15px;
+  margin-right: 120px;
+}
+#sectionOne img {
+  margin-right: 240px;
+}
+#sectionOne p {
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  padding-left: 400px;
+  margin-top: 15px;
+  margin-right: 60px;
+  margin-left: 170px;
+}
+#sectionOne button {
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+  font: weight 700px;
+  font-size: 14px;
+  height: 50px;
+  font-family: "Open Sans";
+  width: 20%;
+  text-align: center;
+  margin-right: 210px;
+  margin-top: 30px;
+}
+#sectionOne button:hover {
+  background-color: #BE9C79;
+  transition: 0.6s;
+}
+
+#secTwo {
+  width: 100%;
+  height: 52rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFFFFF;
+}
+#secTwo .contTwo {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#secTwo .contTwo .text {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 17px 10px;
+  flex-direction: column;
+  text-align: center;
+  gap: 15px;
+}
+#secTwo .contTwo .text h1 {
+  font-family: "Marcellus", serif;
+  font-weight: 200;
+  font-size: 37px;
+  color: rgb(38, 38, 38);
+}
+#secTwo .contTwo .text img {
+  width: 23%;
+}
+#secTwo .contTwo .text p {
+  font-family: "Marcellus", serif;
+  font-weight: 200;
+  font-size: 18px;
+  color: rgb(38, 38, 38);
+}
+#secTwo .contTwo .div {
+  width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 25px 10px;
+  gap: 15px;
+  margin-top: 15px;
+}
+#secTwo .contTwo .div .card {
+  width: 27%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 10px;
+  text-align: center;
+  margin-top: 15px;
+  border: none;
+}
+#secTwo .contTwo .div .card img {
+  width: 50%;
+}
+#secTwo .contTwo .div .card h6 {
+  font-family: "Marcellus", sans-serif;
+  font-weight: 200;
+  font-size: 22px;
+  margin-top: 15px;
+  color: rgb(101, 101, 101);
+}
+#secTwo .contTwo .div .card p {
+  font-family: "Open Sans", serif;
+  font-weight: 200;
+  font-size: 18px;
+  color: rgb(101, 101, 101);
+}
+
+#secThree {
+  width: 100%;
+  height: 60rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #F3E9DF;
+}
+#secThree .contThree {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#secThree .contThree .textTwo {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 17px 10px;
+  flex-direction: column;
+  text-align: center;
+  gap: 15px;
+}
+#secThree .contThree .textTwo h1 {
+  font-family: "Marcellus", serif;
+  font-weight: 200;
+  font-size: 37px;
+  color: rgb(38, 38, 38);
+}
+#secThree .contThree .textTwo img {
+  width: 23%;
+}
+#secThree .contThree .textTwo p {
+  font-family: "Marcellus", serif;
+  font-weight: 200;
+  font-size: 18px;
+  color: rgb(38, 38, 38);
+}
+#secThree .contThree .divTwo {
+  width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 25px 10px;
+  gap: 15px;
+  margin-top: 15px;
+}
+#secThree .contThree .divTwo .cardTwo {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 10px;
+  margin-top: 15px;
+  border: none;
+  flex-direction: column;
+  text-align: justify;
+}
+#secThree .contThree .divTwo .cardTwo img {
+  width: 90%;
+}
+#secThree .contThree .divTwo .cardTwo h6 {
+  font-family: "Marcellus", sans-serif;
+  font-weight: 200;
+  font-size: 22px;
+  margin-top: 15px;
+  color: rgb(101, 101, 101);
+}
+#secThree .contThree .divTwo .cardTwo p {
+  font-family: "Open Sans", serif;
+  font-weight: 200;
+  font-size: 18px;
+  color: rgb(101, 101, 101);
+}
+#secThree .contThree .divTwo .cardTwo span {
+  font-family: "Open Sans", serif;
+  font-weight: 200;
+  font-size: 17px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 576px) {
+  header .container nav {
+    width: 80%;
+  }
+  header .container .navhead img {
+    width: 80%;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 576px) {
+  #sectionOne {
+    width: 100%;
+  }
+  #sectionOne .containerSectionOne {
+    width: 100%;
+  }
+  #sectionOne .containerSectionOne .contImg {
+    width: 100%;
+  }
+  #sectionOne .containerSectionOne .script {
+    width: 100%;
+  }
+  #sectionOne .containerSectionOne .script h1 {
+    font-size: 40px;
+  }
+}
